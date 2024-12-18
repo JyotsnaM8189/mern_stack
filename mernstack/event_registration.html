@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event registration</title>
+</head>
+<body>
+    <h1><center>Aavishkar event</center></h1>
+    <form>
+        <fieldset style="background-color:greenyellow">
+        <fieldset style="background-color: rgb(43, 226, 202);">
+            <legend><b><h2>About this event</h2></b></legend>
+            <p><b>Event name:</b>Aavishkar</p>
+            <p><b>Date:</b>December 28</p>
+            <p><b>Time:</b>10:00 AM to 5 PM</p>
+            <p><b>Organizer:</b>Srinivas</p>
+            <p><b>Ticket price:</b>200</p>
+            <p><b>More information:</b>www.aavishkar.com</p>
+        </fieldset>
+        <br>
+        <fieldset style="background-color: cadetblue;">
+            <legend><b><h2>Participant Information</h2></b></legend>
+            <label for="fullname"><b>Full Name:</b></label>
+            <input type="text" placeholder="Enter your full name">
+            <br>
+            <br>
+            <label for="Date of birth"><b>Date of birth:</b></label>
+            <input type="date">
+            <br>
+            <br>
+            <label for="gender"><b>Gender:</b></label>
+            <input type="radio">male
+            <input type="radio">female
+            <br>
+            <br>
+            <label for="Mobile number"><b>Mobile number:</b></label>
+            <input type="number" placeholder="enter your mobile number" required>
+            <br>
+            <br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" placeholder="Enter your email" required>
+            <br>
+            <br>
+            <label for="branch"><b>Branch:</b></label>
+            <input list="Branch">
+            <datalist id="Branch">
+                <option value="CSE"></option>
+                <option value="ECE"></option>
+                <option value="EEE"></option>
+                <option value="Civil"></option>
+                <option value="Mechanical"></option>
+            </datalist>
+            <br>
+            <br>
+            <label for="hostel/dayscholar"><b>Are you a Hosteller or Dayscholar:</b></label>
+            <input type="radio">Hosteller
+            <input type="radio">Dayscholar
+        </fieldset>
+        <br>
+        <br>
+        <fieldset style="background-color: darkgrey;">
+            <legend><b>Payment Information</b></legend>
+            <label for="ticket"><b>No.of Tickets/No.of passes:</b></label>
+            <input type="number">
+            <br>
+            <br>
+            <label for="Payment"><b>Mode of Payment:</b></label>
+            <input type="radio">UPI
+            <input type="radio">Cash
+            <br>
+            <br>
+            <label for="pass_type"><b>Pass_type</b></label>
+            <input type="radio">Hosteller
+            <input type="radio">Dayscholar
+        </fieldset>
+        <br>
+        <textarea name="Suggestions" id="">Suggestions for event</textarea>
+        <br>
+        <input type="submit" value="Register">
+        </fieldset>
+    </form>
+</body>
+</html>
