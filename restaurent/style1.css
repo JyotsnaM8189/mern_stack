@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+}
+h2{
+    color:bisque;
+    font-size: 50px;
+    font-style: italic;
+}
+p{
+    color: bisque;
+}
+a{
+    padding: 50px;
+    font-size: 30px;
+    color: beige;
+}
+.box{
+    font-size: 20px;
+    display:block;
+    padding-right: 60px;
+    margin-left: 80px;
+    margin-right: 700px;
+    margin-top: 50px;
+}
+.box>p{
+    font-size: 25px;
+}
+.timings>h2{
+    font-size: 30px;
+}
+.timings>h3{
+    color: azure;
+    font-size: 20px;
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:cadetblue;
+    color:khaki;
+    cursor: pointer;
+}
+body{
+    background-image: url("food.avif");
+    background-repeat: no-repeat;
+    background-size: 1550px 700px;
+}
